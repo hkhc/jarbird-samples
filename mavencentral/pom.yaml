@@ -1,0 +1,16 @@
+group: io.hkhc.jarbirdsamples
+artifactId: mavendemo
+version: 1.0
+
+licenses:
+  - name: Apache-2.0
+    dist: repo
+
+developers:
+  - id: demo
+    name: Jarbird Demo
+    email: jarbird.demo@fake-email.com
+
+scm:
+  repoType: github.com
+  repoName: demo/jarbird-samples/maven-demo
