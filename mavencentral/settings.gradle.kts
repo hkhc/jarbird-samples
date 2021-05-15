@@ -7,8 +7,11 @@ pluginManagement {
     }
 }
 
-println("Build with Groovy build script")
+println("Build with Kotlin build script")
 println("Fill in the property values in gradle.properties before build.")
 
-rootProject.name = 'simplelib'
+rootProject.apply {
+    name = "simplelib"
+    buildFileName = "build.gradle.kts"
+}
 

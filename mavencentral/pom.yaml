@@ -1,6 +1,7 @@
-group: io.hkhc.jarbirdsamples
-artifactId: mavendemo
+group: jarbirdsamples
+artifactId: mavencentraldemo
 version: 1.0
+packaging: jar
 
 licenses:
   - name: Apache-2.0
@@ -13,4 +14,4 @@ developers:
 
 scm:
   repoType: github.com
-  repoName: demo/jarbird-samples/maven-demo
+  repoName: user/jarbird-samples/mavencentral
