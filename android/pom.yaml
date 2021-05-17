@@ -3,6 +3,8 @@ artifactId: simpleaar
 version: 1.0
 packaging: aar
 
+description: Demo to publish Android AAR library
+
 licenses:
   - name: Apache-2.0
     dist: repo

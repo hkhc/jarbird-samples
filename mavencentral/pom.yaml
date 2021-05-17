@@ -3,6 +3,8 @@ artifactId: mavencentraldemo
 version: 1.0
 packaging: jar
 
+description: Demo to publish simple library to Maven Central
+
 licenses:
   - name: Apache-2.0
     dist: repo

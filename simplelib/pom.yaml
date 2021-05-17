@@ -1,3 +1,5 @@
 group: jarbirdsamples
 artifactId: simplelib
 version: 1.0-SNAPSHOT
+
+description: Demo of publishing simple SNAPSHOT library
