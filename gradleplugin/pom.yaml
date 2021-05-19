@@ -1,0 +1,24 @@
+group: jarbirdsamples
+artifactId: gradleplugin
+version: 1.0
+packaging: jar
+
+description: Demo to publish simple Gradle Plugin
+
+licenses:
+  - name: Apache-2.0
+    dist: repo
+
+developers:
+  - id: demo
+    name: Jarbird Demo
+    email: jarbird.demo@fake-email.com
+
+scm:
+  repoType: github.com
+  repoName: user/jarbird-samples/gradleplugin
+
+plugin:
+  id: jarbirdsamples.plugin
+  displayName: Demo of simple Gradle Plugin
+  implementationClass: simplelib.SimplePlugin
