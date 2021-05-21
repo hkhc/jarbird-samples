@@ -22,3 +22,5 @@ plugin:
   id: jarbirdsamples.plugin
   displayName: Demo of simple Gradle Plugin
   implementationClass: simplelib.SimplePlugin
+  tags:
+    - publish
