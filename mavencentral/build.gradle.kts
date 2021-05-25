@@ -1,7 +1,7 @@
 plugins {
     id("java")
     `kotlin-dsl`
-    id("io.hkhc.jarbird") version "0.5.2"
+    id("io.hkhc.jarbird") version "0.5.3"
 }
 
 repositories {

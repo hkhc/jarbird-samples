@@ -1,7 +1,7 @@
 plugins {
     id("com.android.library")
     id("kotlin-android")
-    id("io.hkhc.jarbird-android") version "0.5.2"
+    id("io.hkhc.jarbird-android") version "0.5.3"
 }
 
 android {
