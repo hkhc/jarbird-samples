@@ -10,9 +10,7 @@ repositories {
 
 jarbird {
     pub {
-        mavenLocal()
         gradlePortal()
-        useGpg = true
     }
 }
 

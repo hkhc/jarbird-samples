@@ -10,5 +10,5 @@ pluginManagement {
 println("Build with Groovy build script")
 println("Fill in the property values in gradle.properties before build.")
 
-rootProject.name = 'simplelib'
+rootProject.name = 'simplelib-sign'
 

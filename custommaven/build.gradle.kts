@@ -1,7 +1,7 @@
 plugins {
     id("java")
     `kotlin-dsl`
-    id("io.hkhc.jarbird") version "0.5.3"
+    id("io.hkhc.jarbird") version "0.5.4"
 }
 
 repositories {
@@ -10,9 +10,7 @@ repositories {
 
 jarbird {
     pub {
-        mavenLocal()
         mavenRepo("demo")
-        useGpg = true
     }
 }
 
