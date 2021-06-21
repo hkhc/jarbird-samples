@@ -3,7 +3,7 @@ artifactId: custommaven
 version: 1.0
 packaging: jar
 
-description: Demo to publish simple library to Maven Central
+description: Demo to publish simple library to custom Maven repository
 
 licenses:
   - name: Apache-2.0
@@ -16,4 +16,4 @@ developers:
 
 scm:
   repoType: github.com
-  repoName: user/jarbird-samples/mavencentral
+  repoName: user/jarbird-samples/custommaven

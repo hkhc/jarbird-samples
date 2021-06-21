@@ -1,7 +1,7 @@
 plugins {
     id("com.android.library")
     id("kotlin-android")
-    id("io.hkhc.jarbird-android") version "0.6.0"
+    id("io.hkhc.jarbird-android") version "0.7.0"
 }
 
 android {
@@ -35,10 +35,8 @@ android {
 android.libraryVariants.configureEach {
     jarbird {
         pub(name) {
-            mavenLocal()
             mavenCentral()
             variantInvisible()
-            useGpg = true
             from(this@configureEach)
         }
     }

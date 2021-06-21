@@ -1,0 +1,2 @@
+# setup GRADLE_USER_HOME automatically for https://github.com/zpm-zsh/autoenv
+unset GRADLE_USER_HOME

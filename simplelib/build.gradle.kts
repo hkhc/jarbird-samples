@@ -1,7 +1,7 @@
 plugins {
     id("java")
     `kotlin-dsl`
-    id("io.hkhc.jarbird") version "0.6.0"
+    id("io.hkhc.jarbird") version "0.7.0"
 }
 
 repositories {
@@ -11,7 +11,6 @@ repositories {
 jarbird {
     pub {
         mavenLocal()
-        doNotSign()
     }
 }
 
